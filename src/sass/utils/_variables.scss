@@ -1,0 +1,55 @@
+:root {
+  --color-text-main: #000000;
+  --color-text-sec: #ffffff;
+  --color-text-third: #8c8c8c;
+  --color-text-footer: #545454;
+
+  --color-accent-main: #ff6b08;
+  --color-accent-sec: #ff6b01;
+  --color-accent-third: #ff001b;
+
+  --color-bg-main: #ffffff;
+  --color-bg-sec: #f7f7f7;
+
+  --font-family: 'Roboto', sans-serif;
+  --font-weight: 500;
+
+  --font-size-main: 12px;
+  --font-size-sec: 20px;
+  --font-size-third: 14px;
+  --font-size-fourth: 30px;
+
+  --border-radius: 5px;
+
+  --transition-duration: 250ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+$colorTextMain: #000000;
+$colorTextSec: #ffffff;
+$colorTextThird: #8c8c8c;
+$colorTextFooter: #545454;
+
+$colorAccentMain: #ff6b08;
+$colorAccentSec: #ff6b01;
+$colorAccentThird: #ff001b;
+
+$colorBgMain: #ffffff;
+$colorBgSec: #f7f7f7;
+
+$fontFamily: 'Roboto', sans-serif;
+$fontWeight: 500;
+
+$fontSizeMain: 12px;
+$fontSizeSec: 20px;
+$fontSizeThird: 14px;
+$fontSizeFourth: 30px;
+
+$borderRadius: 5px;
+
+$transitionDuration: 250ms;
+$timingFunction: cubic-bezier(0.4, 0, 0.2, 1);
+
+$mobile: 480px;
+$tablet: 768px;
+$laptop: 1280px;

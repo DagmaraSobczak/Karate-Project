@@ -1,12 +1,9 @@
 <section class="header">
-  <div class="container">
-    <a href="./index.html">
-       <img
-          src="./images/logo.png"
-              width="50px"
-          />
-   </a>
-    <nav class="d-none-mobile">
+  <div class="nav-box">
+    <a href="./index.html" class="logo">
+      <img src="./images/logo.png" width="190px" alt="Logo Karate Shorin-Ryu" />
+    </a>
+    <nav class="d-none-tablet">
       <ul class="nav">
         <li class="nav__item"><a href="#Klub" class="nav__link">Klub</a></li>
         <li class="nav__item">
@@ -15,22 +12,25 @@
         <li class="nav__item">
           <a href="#Kontakt" class="nav__link">Kontakt</a>
         </li>
+        <li>
+          <svg class="nav__icon" width="30" height="20">
+            <use xlink:href="./images/icons.svg#FB"></use>
+          </svg>
+        </li>
       </ul>
-   
-    <div class="nav__social">
-      <svg width="20" height="12"><use xlink:href="./images/icons.svg#icon-burger"></use></svg>
+    </nav>
 
+    <div class="nav-modal d-none-mobile">
+      <button
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        backdrop-open
+      >
+        <svg width="20" height="12">
+          <use xlink:href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
     </div>
-  </nav>
-   <div class="nav__modal">
-        <button
-          class="mobile-menu__toggle open-menu d-none-desktop"
-          type="button"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-          backdrop-open
-        >
-          <svg width="20" height="12"><use xlink:href="./images/icons.svg#icon-burger"></use></svg>
-        </button> 
-      </div>
+  </div>
 </section>

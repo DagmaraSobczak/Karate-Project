@@ -1,11 +1,11 @@
 .d-none-mobile {
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 767px) {
     display: none;
   }
 }
 
 .d-none-tablet {
-  @media screen and (max-width: 1279px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }

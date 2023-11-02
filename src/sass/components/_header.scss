@@ -33,6 +33,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 900px;
+  gap: 80px;
 }
 
 .logo {
@@ -48,6 +49,10 @@
   height: 100px;
   overflow: hidden;
 
+  &__item {
+    display: inline-block;
+  }
+
   &__link {
     list-style-type: none;
     font-size: var(--font-size-sec);
@@ -58,6 +63,8 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: var(--cubic-bezier);
+    display: block;
+    position: relative;
 
     &:hover {
       color: var(--white);
@@ -88,4 +95,26 @@
 .nav-modal {
   width: 24px;
   height: 24px;
+}
+
+.dropdown {
+  position: absolute;
+  width: 120px;
+  height: max-content; /* Dodaj właściwość height i dostosuj ją */
+  z-index: 1;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  display: none;
+  margin: 0, auto;
+  margin-top: 10px;
+}
+
+.nav__item:hover .dropdown {
+  display: block;
+}
+.dropdown li {
+  margin-bottom: 10px; /* Doda interlinię między każdą pozycją w menu */
 }

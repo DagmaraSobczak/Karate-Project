@@ -78,5 +78,9 @@
       <symbol id="icon-facebook" viewBox="0 0 16 32">
       <path fill="--color-text-heade" style="fill:var(--color-text-header, #fff)" d="M14.266 15.97H10.09v15.39H3.763V15.97H.754v-5.409h3.009v-3.5c0-2.503 1.182-6.422 6.384-6.422l4.687.02v5.25h-3.401c-.558 0-1.342.28-1.342 1.474v3.183h4.729l-.553 5.403z"/>
     </symbol>
+
+      <symbol id="icon-menu_24px" viewBox="0 0 48 32">
+      <path d="M0 5.333V0h48v5.333H0zm0 13.334h48v-5.333H0v5.333zM0 32h48v-5.333H0V32z"/>
+    </symbol>
     </defs>
 </svg>

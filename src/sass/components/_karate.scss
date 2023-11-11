@@ -1,0 +1,60 @@
+.about-karate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  min-height: 100vh;
+  max-height: 600px;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.about-karate__img {
+  background-image: url(../images/karate-r-b2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 600px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    min-height: 90vh;
+  }
+  &:hover {
+    background-image: url(../images/hover.png);
+  }
+}
+
+.about-karate__text {
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  padding: 0 40 30 40;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    padding: 30 40 30 40;
+  }
+}
+.about-karate__text-h {
+  font-family: var(--font-family);
+  font-size: var(--font-size-fourth);
+  line-height: 1;
+  font-weight: 700;
+  color: var(--color-text-third);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.about-karate__text-p {
+  font-size: var(--font-size-sec);
+  color: var(--color-text-p);
+  font-style: var(--font-header);
+  font-weight: var(--font-medium);
+  line-height: 1.5;
+  text-align: justify;
+}

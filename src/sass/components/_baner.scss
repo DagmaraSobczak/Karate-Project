@@ -18,15 +18,20 @@
   justify-content: center;
   line-height: 1.6;
   padding-left: 80px;
+  max-width: 315px;
+  width: 100%;
 }
 
 h {
   margin-top: 0;
   margin-bottom: 0;
   font-family: var(--font-family);
-  font-size: 40px;
+  font-size: 4vw;
   line-height: 0.95;
   font-weight: 700;
+  @media screen and (min-width: 768px) {
+    font-size: 2vw;
+  }
 }
 
 .baner-btn {
@@ -38,10 +43,10 @@ h {
   color: var(--color-text-third);
   transition: background-color 250ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   font-family: var(--font-family);
-  font-size: 20px;
+  font-size: 1em;
   line-height: 1;
   font-weight: 500;
-  max-width: 200px;
+  max-width: 100%;
 }
 
 .baner-btn:hover {

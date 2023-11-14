@@ -3,25 +3,25 @@
   flex-direction: column;
   justify-content: space-around;
   margin: 0 auto;
-
+  max-height: 600px;
   align-items: center;
-  margin-top: 250px;
+  margin-top: 200px;
   margin-bottom: 200px;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 20px;
   }
 }
 
 .sensei-section__img {
   background-image: url(../images/sensei2.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  height: 600px;
+  min-height: 600px;
   width: 100%;
 
   @media screen and (min-width: 768px) {
@@ -38,5 +38,6 @@
   @media screen and (min-width: 768px) {
     width: 50%;
     padding: 0 40 0 40;
+    overflow: auto;
   }
 }

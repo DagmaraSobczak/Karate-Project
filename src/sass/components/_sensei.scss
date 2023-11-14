@@ -1,12 +1,11 @@
-.about-karate {
+.sensei-section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: 0 auto;
 
-  height: 600px;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 250px;
   margin-bottom: 200px;
 
   @media screen and (min-width: 768px) {
@@ -17,8 +16,8 @@
   }
 }
 
-.about-karate__img {
-  background-image: url(../images/karate-r-b22.png);
+.sensei-section__img {
+  background-image: url(../images/sensei2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -29,13 +28,8 @@
     width: 50%;
     background-size: contain;
   }
-  &:hover {
-    background-image: url(../images/hover.png);
-    background-size: cover;
-  }
 }
-
-.about-karate__text {
+.sensei-section__text {
   display: flex;
   flex-direction: column;
   max-height: 600px;
@@ -43,6 +37,6 @@
 
   @media screen and (min-width: 768px) {
     width: 50%;
-    padding: 30 40 30 40;
+    padding: 0 40 0 40;
   }
 }

@@ -6,14 +6,14 @@
   background-size: auto;
   opacity: 1;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .baner_left {
   position: absolute;
   z-index: 10;
   display: flex;
-
+  min-height: 550px;
   flex-direction: column;
   justify-content: center;
   line-height: 1.6;
@@ -23,19 +23,20 @@
 
   @media screen and (min-width: 768px) {
     padding-left: 80px;
-    max-width: 315px;
+    max-width: 600px;
+    max-height: 200px;
   }
 }
 
-h {
+.baner_font {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: var(--font-family);
+  font-family: var(--font-baner);
   font-size: 4vw;
   line-height: 0.95;
   font-weight: 700;
   @media screen and (min-width: 768px) {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
 
@@ -47,11 +48,14 @@ h {
   background-color: var(--color-text-third);
   color: white;
   transition: background-color 250ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  font-family: var(--font-family);
+  font-family: var(--font-header);
   font-size: 1em;
   line-height: 1;
   font-weight: 500;
   max-width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 60%;
+  }
 }
 
 .baner-btn:hover {
@@ -63,7 +67,7 @@ h {
   right: 0;
   display: block;
   min-width: 70%;
-  height: 600px;
+  min-height: 550px;
 
   background-image: url(../images/baner.png);
   background-size: contain;

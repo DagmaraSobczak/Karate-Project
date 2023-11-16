@@ -1,8 +1,13 @@
 .dojo-section {
   position: relative;
   z-index: -1;
-  opacity: 0.8;
-  background-image: url(../images/kids1.jpg);
+
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../images/kids1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 30%;
@@ -20,11 +25,12 @@
   position: absolute;
   height: 600px;
   font-size: 4vw;
-  color: var(--color-text-sec);
+  color: #fff100;
   font-style: var(--font-header);
   font-weight: var(--font-medium);
   line-height: 1.5;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 20);
+  padding: 10 10 20 30;
 
   @media screen and (min-width: 768px) {
     font-size: 30px;

@@ -18,7 +18,7 @@
 }
 
 .about-karate__img {
-  background-image: url(../images/karate-r-b22.png);
+  background-image: url(../images/kick.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -28,10 +28,6 @@
   @media screen and (min-width: 768px) {
     width: 50%;
     background-size: contain;
-  }
-  &:hover {
-    background-image: url(../images/hover.png);
-    background-size: cover;
   }
 }
 

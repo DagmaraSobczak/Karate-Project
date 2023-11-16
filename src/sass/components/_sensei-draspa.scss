@@ -1,0 +1,47 @@
+.sensei-draspa_section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 500px;
+  margin-bottom: 50px;
+  background-image: linear-gradient(
+    to right top,
+    #c7beb5,
+    #cfc8c0,
+    #d7d1ca,
+    #dfdbd5,
+    #e8e5e0
+  );
+  margin-top: 60px;
+  justify-content: space-around;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
+.sensei-draspa__img {
+  min-height: 240px;
+  background-image: url(../images/draspa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  @media screen and (min-width: 768px) {
+    width: 30%;
+  }
+}
+
+.sensei-draspa__text {
+  display: flex;
+  flex-direction: column; /* Zmienione na flex-direction: column */
+  justify-content: center; /* Wyśrodkowanie tekstu w pionie */
+  padding-left: 40px;
+  @media screen and (min-width: 768px) {
+    padding-top: 15px;
+  }
+}

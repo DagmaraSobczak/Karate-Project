@@ -1,0 +1,42 @@
+.schedule-section {
+  position: relative;
+  z-index: -1;
+  background-color: #f3f3f3;
+  height: 450px;
+  margin-top: 15px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  max-width: 1240px;
+  color: var(--color-text-p);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: #f3f3f3;
+  box-shadow: -21px -21px 30px 1px #eae9e9, 21px 21px 30px 1px #eae9e9;
+}
+
+th,
+td {
+  border: 2px dotted #fff100;
+  padding: 16px 10px;
+  text-align: center;
+}
+
+th {
+  font-family: 'Crimson Text', serif;
+  font-size: 25px;
+  color: #fff100;
+  line-height: 30px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
+
+td:not(:first-child) {
+  font-family: 'Roboto', sans-serif;
+}
+.bold-text {
+  font-weight: bold;
+}

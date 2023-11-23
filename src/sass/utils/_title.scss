@@ -19,3 +19,9 @@
     font-size: 1.5vw;
   }
 }
+.title--kontakt {
+  @media screen and (min-width: 768px) {
+    padding-left: 70px;
+    font-size: 20px;
+  }
+}

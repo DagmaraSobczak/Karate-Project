@@ -231,7 +231,11 @@
   font-size: 1em;
   line-height: 1;
   font-weight: 500;
-  width: 50px;
+  width: 80px;
   display: block;
   margin: 0 auto;
+}
+.kontakt-btn:hover {
+  background-color: transparent;
+  color: var(--color-text-third);
 }

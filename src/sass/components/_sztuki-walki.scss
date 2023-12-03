@@ -1,24 +1,30 @@
-.sensei-section {
+.sztuki-walki-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sztuki-walki-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: 0 auto;
   max-height: 1200px;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 20px;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-top: 80px;
     margin-bottom: 20px;
     max-height: 600px;
   }
 }
 
-.sensei-section__img {
-  background-image: url(../images/sensei2.jpg);
+.kobudo__img {
+  background-image: url(../images/kubudo.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -30,7 +36,20 @@
     background-size: contain;
   }
 }
-.sensei-section__text {
+.jiu-jitsu__img {
+  background-image: url(../images/samo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 600px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    background-size: contain;
+  }
+}
+.sztuki-walki-text {
   display: flex;
   flex-direction: column;
   max-height: 600px;

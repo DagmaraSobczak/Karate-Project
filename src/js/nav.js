@@ -21,7 +21,7 @@ const jiujitsuLink = document.querySelector('.nav__link[href="#Jiu-jitsu"]');
 const isSztukiWalkiPage = window.location.pathname === '/sztukiwalki.html';
 
 if (isSztukiWalkiPage) {
-  kobudoLink.addEventListener('click', function (event) {
+  karateLink.addEventListener('click', function (event) {
     event.preventDefault();
 
     const karateSection = document.getElementById('Karate');
@@ -46,3 +46,6 @@ if (jiujitsuSection) {
 } else {
   jiujitsuLink.setAttribute('href', '/sztukiwalki.html#Jiu-jitsu');
 }
+window.onload = function () {
+  window.scrollTo(0, 0);
+};

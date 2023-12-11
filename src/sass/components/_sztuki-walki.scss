@@ -28,10 +28,11 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  min-height: 600px;
+  min-height: 400px;
   width: 100%;
 
   @media screen and (min-width: 768px) {
+    min-height: 600px;
     width: 50%;
     background-size: contain;
   }
@@ -41,10 +42,11 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  min-height: 600px;
+  min-height: 400px;
   width: 100%;
 
   @media screen and (min-width: 768px) {
+    min-height: 600px;
     width: 50%;
     background-size: contain;
   }

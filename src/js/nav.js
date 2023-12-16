@@ -11,7 +11,10 @@ if (isHomePage) {
     }
   });
 } else {
-  kontaktLink.setAttribute('href', '/Karate-Project/index.html#Kontakt');
+  kontaktLink.setAttribute(
+    'href',
+    'https://dagmarasobczak.github.io/Karate-Project/index.html'
+  );
 }
 
 const karateLink = document.querySelector('.nav__link[href="#Karate"]');

@@ -13,7 +13,7 @@ if (isHomePage) {
 } else {
   kontaktLink.setAttribute(
     'href',
-    'https://dagmarasobczak.github.io/Karate-Project/index.html'
+    'https://dagmarasobczak.github.io/Karate-Project/index.html#Kontakt'
   );
 }
 

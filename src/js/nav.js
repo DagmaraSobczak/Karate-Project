@@ -1,5 +1,4 @@
 const kontaktLink = document.querySelector('.nav__link[href="#Kontakt"]');
-
 const isHomePage = window.location.pathname === '/index.html';
 
 if (isHomePage) {

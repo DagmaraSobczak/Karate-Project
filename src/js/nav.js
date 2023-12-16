@@ -1,4 +1,4 @@
-const kontaktLink = document.querySelector('.nav__link[href="#Kontakt"]');
+const kontaktLink = document.querySelector('.nav__link[href="#Karate"]');
 const isHomePage = window.location.pathname === '/index.html';
 
 if (isHomePage) {
@@ -11,7 +11,7 @@ if (isHomePage) {
     }
   });
 } else {
-  kontaktLink.setAttribute('href', '/index.html#Kontakt');
+  kontaktLink.setAttribute('href', '/Karate-Project/index.html#Kontakt');
 }
 
 const karateLink = document.querySelector('.nav__link[href="#Karate"]');
@@ -29,21 +29,24 @@ if (isSztukiWalkiPage) {
     }
   });
 } else {
-  karateLink.setAttribute('href', '/sztukiwalki.html#Karate');
+  karateLink.setAttribute('href', '/Karate-Project/sztukiwalki.html#Karate');
 }
 
 const kobudoSection = document.getElementById('Kobudo');
 if (kobudoSection) {
   kobudoSection.scrollIntoView({ behavior: 'smooth' });
 } else {
-  kobudoLink.setAttribute('href', '/sztukiwalki.html#Kobudo');
+  kobudoLink.setAttribute('href', '/Karate-Project/sztukiwalki.html#Kobudo');
 }
 
 const jiujitsuSection = document.getElementById('Jiu-jitsu');
 if (jiujitsuSection) {
   jiujitsuSection.scrollIntoView({ behavior: 'smooth' });
 } else {
-  jiujitsuLink.setAttribute('href', '/sztukiwalki.html#Jiu-jitsu');
+  jiujitsuLink.setAttribute(
+    'href',
+    '/Karate-Project/sztukiwalki.html#Jiu-jitsu'
+  );
 }
 window.onload = function () {
   window.scrollTo(0, 0);
